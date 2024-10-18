@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+</head>
+<body>
+    <h1>Carrito de Compras</h1>
+    <div id="productos-lista"></div>
+
+    <label for="producto-index">Ingrese el índice del producto que desea comprar:</label> <br><br>
+    <input type="number" id="producto-index"> <br><br>
+    <button onclick="agregarAlCarrito()">Agregar al Carrito</button><br><br>
+
+    <h2>Productos en el carrito:</h2>
+    <div id="carrito-lista"></div>
+
+    <h2>Resumen del Pedido</h2>
+    <p id="subtotal1"></p>
+    <p id="descuento"></p>
+    <p id="subtotal2"></p>
+    <p id="igv"></p>
+    <p id="total"></p>
+
+    <script src="logica.js"></script>
+</body>
+</html>
